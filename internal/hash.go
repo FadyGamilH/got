@@ -3,10 +3,11 @@ package internal
 import (
 	"crypto/sha1"
 	"encoding/hex"
+	"fmt"
 )
 
 func Hash(content string) string {
-	return "fd790ad99ff75c6c383962e2f0bc1ffeabc22142"
+	return Sha1(fmt.Sprintf("blob %d\x00%s", len(content), content))
 }
 
 func Sha1(content string) string {
