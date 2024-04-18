@@ -1,8 +1,8 @@
 # got
 got is just an implementation of git using go, trying to implement some of the features git supports
 
-# Coding Session #1:
-- Day (1) will be about blobs, how to hash blobs just like git is doing.
+# Part (1):
+- This part is all about blobs, how to hash blobs just like git is doing.
 ### What is the difference btn blobs and files ? 
 - Blobs are `Binary Large Objects` which is the content of the file.
 - Blob is represented in `SHA-1HASH`, which are 20 bytes that identify this blob in git world.
